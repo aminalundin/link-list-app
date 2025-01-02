@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+}
+
+@font-face {
+    font-family: 'JAPAN-Light.ttf';
+    src: url('fonts/JAPAN-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Sushi\ Sushi.ttf';
+    src: url('fonts/Sushi\ Sushi.ttf');
+}
+
+
+.header {
+    font-family: 'JAPAN-Light.ttf';
+    font-size: 50px;
+}
+
+.sushi {
+    font-family: 'Sushi\ Sushi.ttf';
+    margin-top: 20px;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fb0501;
+}
+
+.sushi span {
+    color: white;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.header-span {
+    color: #fb0501;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.subheader {
+    text-align: center;
+    color: #fb0501;
+    margin: 0;
+    padding-bottom: 3rem;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/tokyo.png);
+    background-size: cover;
+}
+
+.dots {
+    color: red;
+}
+
+aside {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    text-align: left;
+    overflow: auto;
+    background-color: #0d0b0f;
+}
+
+.form-content {
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 23px;
+    text-align: center;
+    background-color: white;
+    margin: 3px;
+}
+
+input {
+    width: 380px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-family: monospace;
+}
+
+.submit-button {
+    background-color: white;
+    color: white;
+    height: 35px;
+    background-color: #fb0501b8;
+}
+
+a {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+a:hover {
+    color: #A9A9A9;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 2rem;
+    padding-top: 54px;
+}
+
+.heart {
+    color: #fb0501;
+}
+
+.delete {
+    background-color: #0d0b0f;
+    color: white;
+}
+
