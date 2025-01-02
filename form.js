@@ -23,3 +23,17 @@ form.addEventListener("submit", function (event) {
     nameInput.value = "";
 });
 
+ul.addEventListener("click", function (event) {
+
+    if (event.target.nodeName === "BUTTON") {
+
+        if (event.target.classList.contains("save")) {
+            event.target.classList.toggle("heart");
+        }
+
+        if (event.target.className === "delete") {
+            event.target.parentElement.remove();
+        }
+    }
+});
+
